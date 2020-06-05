@@ -2,3 +2,9 @@
     display: flex;
     justify-content: flex-end;
 }
+
+body {
+    background-image: url(Library.jpeg);
+    /* margin: 2rem; */
+    /* padding: 3rem; */
+}
