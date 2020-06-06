@@ -13,3 +13,7 @@ body {
     border-width: 2rem;
     border-color: #ffe9d1!important
 }
+
+.about-me {
+    font-family: 'Parisienne', cursive;
+}
