@@ -1,10 +1,15 @@
+body {
+    background-image: url(Library.jpeg);
+}
+
 .mobile-right {
     display: flex;
     justify-content: flex-end;
 }
 
-body {
-    background-image: url(Library.jpeg);
-    /* margin: 2rem; */
-    /* padding: 3rem; */
+.book-effect {
+    background-color: #ffeedc;
+    border-style: hidden hidden hidden solid;
+    border-width: 2rem;
+    border-color: #ffe9d1!important
 }
