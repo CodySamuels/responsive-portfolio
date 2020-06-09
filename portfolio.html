@@ -20,11 +20,12 @@
   <!-- Custom CSS -->
   <link rel="stylesheet" href="style.css">
   <title>Portfolio</title>
+
 </head>
 
 <body>
 
-  <!-- Nav Bar that should be mobile friendly. -->
+  <!-- Nav Bar -->
   <nav class="navbar navbar-expand-sm navbar-dark fixed-top mobile-right">
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsible-navbar">
       <span class="navbar-toggler-icon"></span>
@@ -37,8 +38,8 @@
         <li class="nav-item">
           <a class="nav-link" href="./index.html">About</a>
         </li>
-        <li class="nav-item active">
-          <a class="nav-link" href="./portfolio.html">Portfolio</a>
+        <li class="nav-item">
+          <a class="nav-link active" href="./portfolio.html">Portfolio</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="./contact.html">Contact</a>
@@ -48,26 +49,29 @@
   </nav>
 
   <!-- Main body -->
-  <div class="container-fluid">
+  <article class="container-fluid">
     <div class="row">
 
       <!-- Blank Div -->
-      <div class="col-1"></div>
+      <div class="col-sm-1">
 
-      <!-- Main Div -->
-      <div class="col-8 rounded mt-5 pt-5 book-effect">
+      </div>
+
+
+      <div class="col-sm-8 rounded mt-5 pt-5 pb-3 book-effect">
+
         <h1 class="header-font">
-          Portfolio:
+          Portfolio
         </h1>
 
         <br>
 
         <!-- Card Subgroup -->
-        <div class="container">
-          <div class="row d-flex-inline justify-content-center">
+        <div class="container-fluid">
+          <div class="row mb-2 mr-2">
 
             <!-- First card -->
-            <div class="card col-3 mr-2 mb-2">
+            <div class="card col-sm-4">
               <img class="card-img-top" src="https://via.placeholder.com/150" alt="Card image cap">
               <div class="card-body">
                 <p class="card-text d-flex justify-content-center">Portfolio 1</p>
@@ -75,7 +79,7 @@
             </div>
 
             <!-- Second card -->
-            <div class="card col-3 mr-2 mb-2">
+            <div class="card col-sm-4">
               <img class="card-img-top" src="https://via.placeholder.com/150" alt="Card image cap">
               <div class="card-body">
                 <p class="card-text d-flex justify-content-center">Portfolio 2</p>
@@ -83,7 +87,7 @@
             </div>
 
             <!-- Third card -->
-            <div class="card col-3 mr-2 mb-2">
+            <div class="card col-sm-4">
               <img class="card-img-top" src="https://via.placeholder.com/150" alt="Card image cap">
               <div class="card-body">
                 <p class="card-text d-flex justify-content-center">Portfolio 3</p>
@@ -91,31 +95,63 @@
             </div>
           </div>
         </div>
+      </div>
 
-          <!-- Blank Div -->
-          <div class="col-2"></div>
+      <!-- Blank Div -->
+      <div class="col-sm-2 d-none d-md-block">
+      </div>
 
-          <!-- Side-Bar -->
-          <div class="col-1 pt-5 d-flex flex-column align-items-end">
-            <i class="fab fa-linkedin icons text-white"></i>
-            <i class="fab fa-facebook-square icons text-white"></i>
-            <i class="fab fa-github-square icons text-white"></i>
-            <i class="fab fa-twitter-square icons text-white"></i>
-          </div>
+      <!-- Side-Bar -->
+      <div class="col-sm-1 pt-5 d-flex flex-column align-items-end">
+
+        <a class="fab fa-linkedin icons text-white d-none d-md-block"
+          href="https://www.linkedin.com/in/cody-samuels-1478001aa/" target="_blank" rel="noopener noreferrer"
+          alt="LinkedIn"></a>
+        <a class="fab fa-github-square icons text-white d-none d-md-block" href="https://github.com/CodySamuels"
+          target="_blank" rel="noopener noreferrer" alt="GitHub"></a>
+        <!-- Placeholder Link -->
+        <a class="fab fa-twitter-square icons text-white d-none d-md-block" href="#" target="_blank"
+          rel="noopener noreferrer" alt="Twitter"></a>
+
       </div>
     </div>
-  </div>
-      <!-- Optional JavaScript -->
-      <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-        crossorigin="anonymous"></script>
-      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-        crossorigin="anonymous"></script>
-      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
-        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
-        crossorigin="anonymous"></script>
+  </article>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+    crossorigin="anonymous"></script>
 
 </body>
 
