@@ -17,3 +17,7 @@ body {
 .header-font {
     font-family: 'Parisienne', cursive;
 }
+
+.icons {
+    font-size: 3rem;
+}
