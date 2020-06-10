@@ -9,9 +9,9 @@ body {
 
 .book-effect {
     background-color: #ffeedc;
-    border-style: hidden hidden hidden solid;
+    /* border-style: hidden hidden hidden solid;
     border-width: 2rem;
-    border-color: #ffe9d1
+    border-color: #ffe9d1 */
 }
 
 .header-font {
@@ -20,4 +20,8 @@ body {
 
 .icons {
     font-size: 2.5rem;
+}
+
+.navbar {
+    background-color: #grey;
 }
