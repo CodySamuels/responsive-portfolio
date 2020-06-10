@@ -2,6 +2,12 @@ body {
     background-image: url(Library.jpeg);
 }
 
+@media screen and (max-width: 540px) {
+    .navbar {
+      background-color: #3e3c44;
+    }
+}
+
 .book-effect {
     background-color: #ffeedc;
     /* border-style: hidden hidden hidden solid;
