@@ -6,11 +6,12 @@ body {
     .navbar {
       background-color: #3e3c44;
     }
+
 }
 
 .book-effect {
     background-color: #ffeedc;
-    /* border-style: hidden hidden hidden solid;
+    /* border-style: hidden solid hidden solid;
     border-width: 2rem;
     border-color: #ffe9d1 */
 }
